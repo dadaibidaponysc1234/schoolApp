@@ -54,6 +54,12 @@
 .groupedinfo {
   display: flex;
   gap: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.groupedinfo_address {
+  display: flex;
+  gap: 20px;
 }
 @media (min-width: 750px) {
   .Form_input input,
